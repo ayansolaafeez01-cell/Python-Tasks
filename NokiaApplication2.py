@@ -1,4 +1,4 @@
-nokia_menu = """
+Nokia phone menu = """
 List of menu functions
 1. Phone book
 2. Messages
@@ -17,9 +17,9 @@ List of menu functions
 15. SIM services
 16. Back"""
 while True:
-	print(nokia_menu)
-	nokia_menu_prompt = int(input('Enter any option: '))
-	match(nokia_menu_prompt):
+	print(main_menu)
+	main_menu_prompt = int(input('Enter any option: '))
+	match(main_menu_prompt):
 		case 0: break
 		case 1: 
 			print("Phone book")
